@@ -25,7 +25,6 @@ export default function Products() {
       <ul>
         {products.map((p) => (
           <li>
-            {/* <h4>{p.id}</h4> */}
             <h3>{p.title}</h3>
             <p>Price: {p.price}</p>
             <p>{p.description}</p>
@@ -35,3 +34,4 @@ export default function Products() {
     </div>
   );
 }
+
